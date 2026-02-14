@@ -7,7 +7,7 @@ export default function Features() {
         <section className="bg-zinc-50 py-1  md:py-10 dark:bg-transparent pb-20">
             <div className="@container mx-auto max-w-5xl px-6">
                 <div className="text-center">
-                    <h2 className="text-balance text:xl md:text-4xl font-semibold lg:text-5xl">Why Contribute via Orbis?</h2>
+                    <h2 className="text-balance text:xl md:text-4xl font-semibold lg:text-5xl font-mono">Why Contribute via Orbis?</h2>
                     <p className="mt-4">Build your portfolio while helping the open source community thrive.</p>
                 </div>
                 <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16">
@@ -20,7 +20,7 @@ export default function Features() {
                                 />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">Curated Projects</h3>
+                            <h3 className="mt-6 font-medium font-mono">Curated Projects</h3>
                         </CardHeader>
 
                         <CardContent>
@@ -37,7 +37,7 @@ export default function Features() {
                                 />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">Impactful Contributions</h3>
+                            <h3 className="mt-6 font-medium font-mono">Impactful Contributions</h3>
                         </CardHeader>
 
                         <CardContent>
@@ -54,7 +54,7 @@ export default function Features() {
                                 />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">Community Growth</h3>
+                            <h3 className="mt-6 font-medium font-mono">Community Growth</h3>
                         </CardHeader>
 
                         <CardContent>

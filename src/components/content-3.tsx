@@ -11,7 +11,7 @@ export default function Content3() {
                 <Masking />
 
                 <div className="grid gap-6 md:grid-cols-2 md:gap-12">
-                    <h2 className="text-xl md:text-4xl font-medium">Connecting Developers with Rising Open Source Stars.</h2>
+                    <h2 className="text-xl md:text-4xl font-medium font-mono">Connecting Developers with Rising Open Source Stars.</h2>
                     <div className="space-y-6">
                         <p>Orbis helps you discover mid-level startups and projects with vision and momentum. Stop searching endlessly and start contributing to projects that matter.</p>
 
