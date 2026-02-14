@@ -1,6 +1,3 @@
-
-
-
 import React from 'react'
 import type { Metadata } from 'next'
 import Python from "../../../components/lang/python"
@@ -32,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     openGraph: {
       title: `Explore ${capitalizedLang} Projects | Orbis`,
       description: `Invest your time in high-potential ${capitalizedLang} open-source projects.`,
-      images: ['/masking.jpg']
+      images: ['/langImg.png']
     }
   }
 }
