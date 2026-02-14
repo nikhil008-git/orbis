@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     openGraph: {
       title: `Explore ${capitalizedLang} Projects | Orbis`,
       description: `Invest your time in high-potential ${capitalizedLang} open-source projects.`,
-      images: ['/og-image.png']
+      images: ['/masking.jpg']
     }
   }
 }

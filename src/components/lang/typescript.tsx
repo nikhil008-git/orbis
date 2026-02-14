@@ -10,7 +10,7 @@ export default async function TypeScript() {
         <AnimatedGroup variants={transitionVariants} className="space-y-8">
             <div className="flex items-center justify-between border-b border-slate-200 pb-6">
                 <div>
-                    <h1 className="text-3xl font-bold font-mono text-slate-900">TypeScript Projects</h1>
+                    <h1 className="text-3xl font-bold font-mono text-slate-900 mt-10">TypeScript Projects</h1>
                     <p className="mt-2 text-slate-500">Type-safe projects trending on oss.</p>
                 </div>
             </div>

@@ -10,7 +10,7 @@ export default async function JavaScript() {
     <AnimatedGroup variants={transitionVariants} className="space-y-8">
       <div className="flex items-center justify-between border-b border-slate-200 pb-6">
         <div>
-          <h1 className="text-3xl font-bold font-mono text-slate-900">JavaScript Projects</h1>
+          <h1 className="text-3xl font-bold font-mono text-slate-900 mt-10">JavaScript Projects</h1>
           <p className="mt-2 text-slate-500">Popular works to contribute in this ecosystem.</p>
         </div>
       </div>
