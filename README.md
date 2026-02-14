@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Orbis - SSR Website Assessment
+![Preview](public/homey.png)
 
-## Getting Started
+## Project Overview
+Orbis is a server-side rendered (SSR) React-based website built using Next.js. This project is designed to be SEO-optimized, featuring programmatic SEO pages generated dynamically based on external data. The application adheres to modern web development best practices, including the use of JSON-LD schema, OpenGraph metadata, and responsive design.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Server-Side Rendering (SSR): Ensures content is pre-rendered on the server for optimal SEO performance and fast initial load times.
+- Programmatic SEO: Dynamic creation of pages based on data, targeting relevant keywords.
+- SEO Best Practices: Implementation of semantic HTML, meta tags, and structured data (JSON-LD).
+- Responsive Design: Mobile-friendly interface built with Tailwind CSS and Radix UI components.
+- Dynamic Data Integration: Fetches implementation data using GitHub API.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Prerequisites
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Ensure you have the following installed on your local machine:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js (v18 or higher recommended)
+- npm or yarn
 
-## Learn More
+## Local Setup
 
-To learn more about Next.js, take a look at the following resources:
+Follow these steps to set up and run the project locally:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone <repository-url>
+   cd orbis
+   ```
 
-## Deploy on Vercel
+2. Install dependencies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Configure Environment Variables
+
+   Create a .env.local file in the root directory and add your GitHub Token:
+
+   Open .env.local and populate the GITHUB_TOKEN variable:
+
+   ```text
+   GITHUB_TOKEN=your_github_personal_access_token
+   ```
+
+4. Run the development server
+
+   ```bash
+   npm run dev
+   ```
+
+   Open http://localhost:3000 with your browser to see the result.
+
+## Project Structure
+
+- src/app: App directory containing pages and layouts.
+- src/components: Reusable React components.
+- public: Static assets.
+- styles: Global styles and Tailwind configuration.
+
+## Tech Stack
+
+- Framework: Next.js 16
+- Language: TypeScript
+- Styling: Tailwind CSS, PostCSS
+- Components: Radix UI, Lucide React, Framer Motion
+- Linter: ESLint
+
+## Deployment
+
+The application is designed to be deployed on cloud platforms like Vercel or Netlify.
+
+## Assessment Scope
+
+This project addresses the following assessment tasks:
+
+1. Project Setup: Set up Next.js for SSR and SEO optimization.
+2. Data Selection: Utilization of GitHub data for programmatic pages.
+3. SEO Optimization: Implementation of meta tags, titles, JSON-LD, and OpenGraph.
+4. Programmatic SEO: Dynamic generation of at least 3 SEO-friendly pages using server-side data fetching.
+5. Design: Clean, responsive UI with accessibility considerations.
+6. Deployment: Hosting on Vercel/Netlify.
+7. Testing: Verification of SEO scores and rendering performance.
+![analyse](public/analyse.png)
