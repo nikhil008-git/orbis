@@ -4,10 +4,10 @@ import { ReactNode } from 'react'
 
 export default function Features() {
     return (
-        <section className="bg-zinc-50 py-16 md:py-32 dark:bg-transparent">
+        <section className="bg-zinc-50 py-1  md:py-10 dark:bg-transparent pb-20">
             <div className="@container mx-auto max-w-5xl px-6">
                 <div className="text-center">
-                    <h2 className="text-balance text-4xl font-semibold lg:text-5xl">Why Contribute via Orbis?</h2>
+                    <h2 className="text-balance text:xl md:text-4xl font-semibold lg:text-5xl">Why Contribute via Orbis?</h2>
                     <p className="mt-4">Build your portfolio while helping the open source community thrive.</p>
                 </div>
                 <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16">

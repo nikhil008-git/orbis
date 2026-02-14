@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 export default function ContentSection() {
     return (
-        <section className="py-16 md:py-32">
+        <section className="py-16 md:py-32 mb-30">
             <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
-                <h2 className="relative z-10 max-w-xl text-4xl font-medium lg:text-5xl">The Orbis Ecosystem brings together developers and visionaries.</h2>
+                <h2 className="relative z-10 max-w-xl text-xl md:text-4xl font-medium lg:text-5xl">The Orbis Ecosystem brings together developers and visionaries.</h2>
                 <div className="relative">
                     <div className="relative z-10 space-y-4 md:w-1/2">
                         <p>
@@ -40,7 +40,7 @@ export default function ContentSection() {
                                 height={929}
                             />
                             <Image
-                                src="/next.svg"
+                                src="/LangImg.png"
                                 className="rounded-[12px] shadow dark:hidden"
                                 alt="payments illustration light"
                                 width={1207}

@@ -11,7 +11,7 @@ export default async function Python() {
       <div className="flex items-center justify-between border-b border-slate-200 pb-6">
         <div>
           <h1 className="text-3xl font-bold font-mono text-slate-900">Python Projects</h1>
-          <p className="mt-2 text-slate-500">Top trending Python repositories for you.</p>
+          <p className="mt-2 text-slate-500">Top trending Python repositories to do.</p>
         </div>
       </div>
 

@@ -8,19 +8,19 @@ export default function dashboard() {
     return (
         <>
             <AnimatedGroup variants={transitionVariants}>
-                <div className="text-center text-3xl md:text-5xl font-bold font-mono pb-4 border-b border-slate-200">welcome to the <span className="rounded-md px-2  bg-yellow-500">dashboard</span>!</div>
+                <div className="text-center text-3xl md:text-5xl font-bold font-mono pb-4 ">welcome to the <span className="rounded-md px-2  bg-yellow-500">dashboard</span>!</div>
 
                 <div className=" border-b border-slate-200">
                     <Content3 />
                 </div>
+                <div className="  border-slate-200">
+                    <ContentSection />
+                </div>
 
-                <div className=" border-b border-slate-200">
+                <div className=" ">
                     <Features1 />
                 </div>
 
-                <div className=" border-b border-slate-200">
-                    <ContentSection />
-                </div>
 
                 <div className="">
                     <FooterSection />

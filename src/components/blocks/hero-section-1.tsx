@@ -66,7 +66,7 @@ export function HeroSection() {
                                     },
                                 },
                             }}
-                            className="absolute inset-0 -z-20">
+                            className=" absolute inset-0 -z-20">
                             <img
                                 src="https://ik.imagekit.io/lrigu76hy/tailark/night-background.jpg?updatedAt=1745733451120"
                                 alt="background"
@@ -102,8 +102,8 @@ export function HeroSection() {
                                         <span className="text-primary bg-yellow-500 rounded-lg mb-1 py-0">contribute</span> in your own language with orbis
                                     </h1>
                                     <p
-                                        className="mx-auto mt-8 max-w-2xl text-balance text-lg">
-                                        In the vast universe of open-source projects, Orbis identifies the rising stars—mid-level startups with vision, potential, and momentum—helping the community explore, connect, and grow alongside them.
+                                        className="mx-auto mt-8 max-w-2xl font-roboto text-neutral-500 text-balance text-lg">
+                                        In the vast universe of open-source projects, Orbis identifies the rising stars mid-level startups with vision, potential, and momentum helping the community explore, connect, and grow alongside them.
                                     </p>
                                 </AnimatedGroup>
 
@@ -138,8 +138,8 @@ export function HeroSection() {
                                         size="lg"
                                         variant="ghost"
                                         className="h-10.5 rounded-xl px-5">
-                                        <Link href="#">
-                                            <span className="text-nowrap">Join Community</span>
+                                        <Link href="/">
+                                            <span className="text-nowrap">$Bounties on waiting</span>
                                         </Link>
                                     </Button>
                                 </AnimatedGroup>
@@ -173,7 +173,7 @@ export function HeroSection() {
                                     />
                                     <img
                                         className="z-2 border-border/25 aspect-15/8 relative rounded-2xl border dark:hidden"
-                                        src="https://tailark.com/_next/image?url=%2Fmail2-light.png&w=3840&q=75"
+                                        src="homey.png"
                                         alt="app screen"
                                         width="2700"
                                         height="1440"

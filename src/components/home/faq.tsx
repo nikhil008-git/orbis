@@ -61,11 +61,11 @@ export default function FAQsTwo() {
                         </Accordion>
 
                         <p className="text-muted-foreground mt-6 px-8">
-                            Can't find what you're looking for? Contact our{' '}
+                            what are you looking for? mail here{' '}
                             <Link
-                                href="#"
+                                href="mailto:rajpurohitnikhil008@gmail.com"
                                 className="text-primary font-medium hover:underline">
-                                customer support team
+                                rajpurohitnikhil008@gmail.com
                             </Link>
                         </p>
                     </AnimatedGroup>
